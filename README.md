@@ -114,6 +114,22 @@ Learning Rate: Cosine annealing with warm restarts
  
 Add geographic and temporal features
 
+house_price_prediction/
+├── data/
+│   ├── final_zimbabwe.csv
+│   └── images/
+├── models/
+│   ├── base_model.py
+│   ├── model_factory.py
+│   └── optimized_model.py
+├── training/
+│   ├── train_utils.py
+│   └── evaluation.py
+├── datasets/
+│   └── property_dataset.py
+└── notebooks/
+    └── house_price_prediction.ipynb
+
 Optimize hyperparameters for specific architectures
 # 21 CNN Architectures
 House Price Prediction 
